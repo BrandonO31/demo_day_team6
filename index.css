@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
-body {
+#main {
     background-color: #ffe139;
+    padding-bottom: 50px;
 }
 
 * {
@@ -13,11 +14,17 @@ body {
 }
 
 #navbar {
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     border-radius: 25px;
     border: 3px solid;
     background-color: white;
+    
+    
     }
     
     .navlinks {
@@ -68,12 +75,82 @@ body {
         text-decoration: none;
     }
 
-#intro {
-    text-align: center;
+#welcoming {
+  text-align: center;
+  font-size: 50px;
+  padding: 5px;
+}
+
+#intros {
+  background-color: #ffe139;
+  padding-top: 20px;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .gifs {
-    display: flex;
-    justify-content: center;
+  border: 15px outset rgb(240,255,240);
+  width: 25%;
+  height: 100%;
+  margin: 5px;
 }
-    
+
+#strength {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 30px outset skyblue;
+}
+
+#welcometext {
+  padding-top: 100px;
+}
+
+#header2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+.welcomefacts {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: 3px solid black;
+  
+}
+
+.lists {
+  margin: 10px;
+}
+
+#foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  background-color: rgb(3, 7, 90);
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  
+
+a {
+  color: rgb(219, 219, 219);
+  font-weight: bold;
+}
+
